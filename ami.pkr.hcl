@@ -14,7 +14,7 @@ packer {
 
   source "amazon-ebs" "linux" {
     # AMI Settings
-    ami_name                      = Shahed-goldenAMI_${var.build_number}"
+    ami_name                      = "Shahed-goldenAMI_${var.build_number}"
     instance_type                 = "t2.micro"
     source_ami                    = "ami-0b0dcb5067f052a63"
     ssh_username                  = "ubuntu"
